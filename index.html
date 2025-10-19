@@ -1,0 +1,2607 @@
+<!DOCTYPE html>
+<html lang="ru" id="htmlLang">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Дарья Давыдова - UX/UI дизайнер | Портфолио</title>
+    <meta name="description" content="Портфолио Дарьи Давыдовой - начинающего UX/UI дизайнера. Создание интуитивных интерфейсов, пользовательских исследований и дизайн-систем.">
+    
+    <!-- Мета-теги для мобильной оптимизации -->
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src https://cdnjs.cloudflare.com; img-src 'self' data: https:;">
+    
+    <!-- Preload и оптимизации -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- БЕЗОПАСНАЯ версия Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous">
+    
+    <!-- Фавиконки -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Социальные мета-теги -->
+    <meta property="og:title" content="Дарья Давыдова - UX/UI дизайнер">
+    <meta property="og:description" content="Портфолио начинающего UX/UI дизайнера">
+    <meta property="og:image" content="./preview-image.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Schema.org структурированные данные -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Дарья Давыдова",
+      "jobTitle": "UX/UI дизайнер",
+      "description": "Начинающий UX/UI дизайнер с фокусом на создании интуитивных интерфейсов",
+      "email": "dariya.d.design@gmail.com",
+      "telephone": "+7 (993) 936-56-95",
+      "url": "https://вашсайт.ru",
+      "sameAs": [
+        "https://t.me/dasharrows",
+        "https://vk.com/dasharrow"
+      ],
+      "knowsAbout": ["UX Design", "UI Design", "User Research", "Figma", "Prototyping", "Web Design"],
+      "hasCredential": "Яндекс.Практикум - UX/UI дизайнер",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Фриланс"
+      }
+    }
+    </script>
+    
+    <style>
+        /* Весь оригинальный CSS код остается без изменений */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        :root {
+            --primary-color: #000000;
+            --secondary-color: #333333;
+            --accent-color: #e74c3c;
+            --text-color: #333333;
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+            --pastel-blue: #e8f4f8;
+            --pastel-green: #f0f8f0;
+            --pastel-purple: #f5f0ff;
+            --pastel-orange: #fff5e6;
+            
+            --base-font-size: 18px;
+            --line-height: 1.6;
+            --section-padding: 3rem 2rem;
+            --card-padding: 1.5rem;
+            --grid-gap: 1.5rem;
+            
+            --scrollbar-width: 0px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: var(--base-font-size);
+            background-color: var(--light-bg);
+            height: 100%;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: var(--line-height);
+            overflow-x: hidden;
+            font-size: var(--base-font-size);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            height: 100%;
+        }
+
+        body.menu-open {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            padding-right: var(--scrollbar-width);
+        }
+
+        .search-box {
+            caret-color: var(--text-color) !important;
+            color: var(--text-color);
+            font-size: 16px !important;
+        }
+
+        .mobile-search-box {
+            font-size: 16px !important;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+            
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        button:focus-visible,
+        a:focus-visible,
+        input:focus-visible,
+        .navbar button:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        button:focus:not(:focus-visible),
+        a:focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        .search-box:focus-visible,
+        .mobile-search-box:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        .section-header h2,
+        .section-header p,
+        .content-card h3,
+        .hero-content h1,
+        .hero-content p,
+        .contact-note,
+        .footer-title {
+            overflow-wrap: break-word;
+            word-break: normal;
+            text-wrap: pretty;
+            -webkit-text-wrap: pretty;
+            hyphens: none;
+        }
+
+        .about .section-header p {
+            font-size: 1.125rem !important;
+        }
+
+        @media (max-width: 768px) {
+            .about .section-header p {
+                font-size: 1rem !important;
+            }
+        }
+
+        p:not(.section-header p):not(.hero-content p):not(.contact-note),
+        li, 
+        .about-text p {
+            overflow-wrap: break-word;
+            word-break: normal;
+            text-wrap: pretty;
+            -webkit-text-wrap: pretty;
+            hyphens: auto;
+        }
+
+        .content-card p {
+            text-wrap: pretty;
+            -webkit-text-wrap: pretty;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .section-element {
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.3s ease-out;
+            will-change: transform, opacity;
+        }
+
+        .section-element[data-animate]:not(.animated) {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .section-element[data-animate="fade-left"]:not(.animated) {
+            transform: translateX(-30px);
+        }
+
+        .section-element[data-animate="fade-right"]:not(.animated) {
+            transform: translateX(30px);
+        }
+
+        .section-element[data-animate="zoom-in"]:not(.animated) {
+            transform: scale(0.95);
+        }
+
+        .navbar {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .navbar.scrolled {
+            padding: 0.75rem 2rem;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .logo:hover {
+            color: var(--accent-color);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 500;
+            transition: all 0.2s ease;
+            position: relative;
+            padding: 0.5rem 0;
+            font-size: 1rem;
+            white-space: nowrap;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: var(--accent-color);
+            transition: width 0.2s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-color);
+        }
+
+        .search-language {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        .search-box {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 1.25rem;
+            transition: all 0.2s ease;
+            width: 8rem;
+            font-size: 0.9rem;
+        }
+
+        .search-box:focus {
+            width: 10rem;
+        }
+
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border-radius: 0.625rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-top: 0.3125rem;
+            max-height: 12.5rem;
+            overflow-y: auto;
+            display: none;
+            z-index: 1001;
+        }
+
+        .search-result {
+            padding: 0.625rem 1rem;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+            transition: all 0.2s ease;
+            font-size: 0.875rem;
+        }
+
+        .search-result:hover,
+        .search-result:focus {
+            background: #f5f5f5;
+            color: var(--accent-color);
+        }
+
+        .search-result:last-child {
+            border-bottom: none;
+        }
+
+        .language-switcher {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            color: var(--primary-color);
+            padding: 0.5rem 0.875rem;
+            border-radius: 0.3125rem;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .language-switcher:hover {
+            color: var(--accent-color);
+        }
+
+        .burger-menu {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 18px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            z-index: 1002;
+            position: relative;
+        }
+
+        .burger-menu span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: var(--primary-color);
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+
+        .burger-menu.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .burger-menu.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .burger-menu.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100dvh;
+            background: rgba(255, 255, 255, 0.98);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+            transition: right 0.3s ease;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-close-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            z-index: 1003;
+            transition: all 0.2s ease;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mobile-close-btn i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: all 0.2s ease;
+            display: block;
+            line-height: 1;
+        }
+
+        .mobile-close-btn:hover i {
+            color: var(--accent-color);
+            transform: scale(1.1);
+        }
+
+        .mobile-nav-links {
+            list-style: none;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .mobile-nav-links a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            padding: 0.5rem 1rem;
+        }
+
+        .mobile-nav-links a:hover,
+        .mobile-nav-links a.active {
+            color: var(--accent-color);
+        }
+
+        .mobile-search-language {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .mobile-search-container {
+            position: relative;
+        }
+
+        .mobile-search-box {
+            padding: 0.75rem 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 1.25rem;
+            transition: all 0.2s ease;
+            width: 15rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .mobile-search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border-radius: 0.625rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-top: 0.3125rem;
+            max-height: 12.5rem;
+            overflow-y: auto;
+            display: none;
+            z-index: 1001;
+        }
+
+        .mobile-language-switcher {
+            background: none;
+            border: 2px solid var(--primary-color);
+            cursor: pointer;
+            font-weight: 500;
+            color: var(--primary-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.625rem;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-language-switcher:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        main {
+            flex: 1;
+            width: 100%;
+            margin-top: 4rem;
+        }
+
+        section {
+            padding: var(--section-padding);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            min-height: auto;
+        }
+
+        .hero {
+            min-height: 100vh;
+        }
+
+        .about,
+        .partners,
+        .figma-section {
+            min-height: auto;
+            padding: 3rem 2rem;
+        }
+
+        .contact {
+            min-height: auto;
+            padding: 3rem 2rem;
+        }
+
+        .section-content {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #000000;
+            color: white;
+            text-align: center;
+            padding-top: 6rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-content {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero-content p {
+            font-size: 1.125rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.9;
+            text-align: center;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.25rem;
+            color: var(--primary-color);
+            position: relative;
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            width: 4rem;
+            height: 3px;
+            bottom: -0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .section-header p {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 1rem auto 0;
+            color: var(--secondary-color);
+            text-align: center;
+        }
+
+        .about {
+            background: var(--pastel-blue);
+        }
+
+        .about-main {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .about-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .about-text p {
+            font-size: var(--base-font-size);
+            line-height: var(--line-height);
+            color: var(--secondary-color);
+            text-align: left;
+        }
+
+        .content-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: var(--card-padding);
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease-out;
+            border-top: 3px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .content-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        .content-card p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+        .content-card ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-card li {
+            padding-left: 1.25rem;
+            position: relative;
+            line-height: 1.4;
+            font-size: 0.95rem;
+            color: var(--secondary-color);
+        }
+
+        .content-card li::before {
+            content: "—";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0.25rem;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        .tools-experience {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--grid-gap);
+            margin-top: var(--grid-gap);
+        }
+
+        .tools-experience .content-card {
+            border-top-color: var(--pastel-blue);
+            min-height: auto;
+        }
+
+        .skills-section {
+            display: flex;
+            flex-direction: column;
+            gap: var(--grid-gap);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--grid-gap);
+        }
+
+        .skills-grid .content-card {
+            border-top-color: var(--pastel-blue);
+            min-height: auto;
+        }
+
+        .contact-btn-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            -webkit-display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 2.5rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 1.875rem;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 600;
+            font-size: 1.125rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            min-width: 15rem;
+            text-align: center;
+        }
+
+        .contact-btn:hover {
+            background: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .contact-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            background: var(--primary-color);
+            border-radius: 1.875rem;
+        }
+
+        .partners {
+            background: var(--pastel-green);
+            padding-bottom: 2rem;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--grid-gap);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .experience-grid .content-card {
+            border-top-color: var(--pastel-green);
+            min-height: auto;
+        }
+
+        .figma-section {
+            background: var(--pastel-purple);
+            padding-bottom: 2rem;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--grid-gap);
+            margin-bottom: 2rem;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .portfolio-grid .content-card {
+            border-top-color: var(--pastel-purple);
+            min-height: auto;
+        }
+
+        .portfolio-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+
+        .tag {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 1rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+
+        .tag:hover {
+            background: var(--secondary-color);
+            transform: scale(1.05);
+            color: white;
+        }
+
+        .figma-link {
+            display: inline-flex;
+            -webkit-display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 1.875rem;
+            border: 2px solid transparent;
+            font-weight: 600;
+            font-size: 1.125rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .figma-link:hover {
+            transform: translateY(-2px);
+            background: var(--primary-color);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .figma-link:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            background: var(--primary-color);
+            border-radius: 1.875rem;
+        }
+
+        .figma-link:hover .fab.fa-figma {
+            color: var(--accent-color);
+        }
+
+        .figma-link .fab.fa-figma {
+            color: white;
+            transition: color 0.2s ease;
+        }
+
+        .contact {
+            background: var(--pastel-orange);
+            display: flex;
+            align-items: center;
+            padding: 2rem 2rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--grid-gap);
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .contact-card {
+            border-top-color: var(--pastel-orange);
+            text-align: center;
+            min-height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1.5rem 1rem;
+            min-height: 200px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent-color);
+        }
+
+        .contact-card:active {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card i {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            transition: all 0.2s ease;
+        }
+
+        .contact-card:hover i {
+            transform: scale(1.1);
+            color: var(--accent-color);
+        }
+
+        .contact-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+
+        .contact-card p {
+            font-size: 0.9rem;
+            line-height: var(--line-height);
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .contact-card span {
+            color: var(--secondary-color);
+            transition: color 0.2s ease;
+            font-weight: 500;
+            font-size: 0.9rem;
+            display: block;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-card:hover span {
+            color: var(--primary-color);
+        }
+
+        .contact-note {
+            font-style: italic;
+            font-size: 1rem;
+            line-height: var(--line-height);
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+            color: var(--secondary-color);
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+        }
+
+        .footer-content {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.95rem;
+        }
+
+        .footer-left {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-start;
+        }
+
+        .footer-title {
+            font-weight: 500;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+
+        .footer-center {
+            display: flex;
+            gap: 1.25rem;
+            flex: 1;
+            justify-content: center;
+        }
+
+        .footer-center a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: all 0.2s ease;
+            opacity: 0.9;
+            padding: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 3rem;
+            min-height: 3rem;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-center a:hover {
+            opacity: 1;
+            transform: translateY(-2px) scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+        }
+
+        .footer-center a i {
+            transition: all 0.2s ease;
+        }
+
+        .footer-center a:hover i {
+            transform: scale(1.1);
+            color: var(--accent-color);
+        }
+
+        .footer-right {
+            opacity: 0.9;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            flex: 1;
+            text-align: right;
+        }
+
+        @media (max-width: 1200px) {
+            .experience-grid,
+            .portfolio-grid,
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .search-language {
+                display: none;
+            }
+            
+            .burger-menu {
+                display: flex;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --section-padding: 2rem 1rem;
+                --card-padding: 1.25rem;
+                --grid-gap: 1rem;
+                --base-font-size: 16px;
+            }
+
+            .navbar {
+                padding: 0.75rem 1rem;
+            }
+
+            .hero {
+                padding-top: 5rem;
+                min-height: 80vh;
+            }
+
+            .hero-content h1 {
+                font-size: 1.75rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            .hero-stats {
+                gap: 2rem;
+            }
+
+            .stat-number {
+                font-size: 1.75rem;
+            }
+
+            .section-header h2 {
+                font-size: 1.75rem;
+            }
+
+            .section-header p {
+                font-size: 1rem;
+            }
+
+            .tools-experience,
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .experience-grid,
+            .portfolio-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .footer-left,
+            .footer-right {
+                justify-content: center;
+                text-align: center;
+            }
+
+            .contact-btn,
+            .figma-link {
+                min-width: 12rem;
+                padding: 0.875rem 1.5rem;
+                font-size: 1rem;
+            }
+
+            .footer-center a {
+                padding: 0.5rem;
+                min-width: 2.5rem;
+                min-height: 2.5rem;
+                font-size: 1.25rem;
+            }
+            
+            .section-header {
+                margin-bottom: 1.5rem;
+            }
+            
+            .section-header h2 {
+                margin-bottom: 0.75rem;
+            }
+            
+            .about-main {
+                gap: 1.5rem;
+            }
+            
+            .about-text {
+                gap: 0.75rem;
+            }
+            
+            .content-card h3 {
+                margin-bottom: 0.75rem;
+            }
+            
+            .content-card p {
+                margin-bottom: 0.75rem;
+            }
+
+            .tools-experience,
+            .skills-section {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar {
+                padding: 0.5rem 1rem;
+            }
+            
+            .logo {
+                font-size: 1rem;
+            }
+            
+            .hero-content {
+                padding: 0 0.5rem;
+            }
+            
+            .content-card {
+                margin: 0 0.5rem;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .content-card {
+                padding: 1rem;
+            }
+
+            .contact-note {
+                font-size: 0.9rem;
+            }
+
+            .contact-grid .content-card {
+                min-height: 180px;
+            }
+            
+            .mobile-search-box {
+                width: 12rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.5rem;
+            }
+            
+            .section-header p {
+                font-size: 0.9rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 1.5rem;
+            }
+            
+            .hero-content p {
+                font-size: 0.9rem;
+            }
+            
+            .stat-number {
+                font-size: 1.5rem;
+            }
+            
+            .stat-label {
+                font-size: 0.8rem;
+            }
+            
+            .content-card h3 {
+                font-size: 1.1rem;
+            }
+            
+            .content-card p, 
+            .content-card li {
+                font-size: 0.85rem;
+            }
+            
+            .contact-btn,
+            .figma-link {
+                min-width: 10rem;
+                padding: 0.75rem 1.25rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 320px) {
+            :root {
+                --base-font-size: 15px;
+                --section-padding: 1.5rem 0.5rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 1.25rem;
+            }
+            
+            .hero-content p {
+                font-size: 0.8rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.25rem;
+            }
+            
+            .contact-btn,
+            .figma-link {
+                min-width: 8rem;
+                padding: 0.6rem 1rem;
+                font-size: 0.8rem;
+            }
+            
+            .contact-card {
+                min-height: 160px;
+                padding: 1rem 0.5rem;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .mobile-search-box {
+                width: 10rem;
+            }
+        }
+
+        @media (max-height: 500px) and (orientation: landscape) {
+            .hero {
+                min-height: 120vh;
+            }
+            
+            .mobile-menu {
+                padding: 2rem 0;
+            }
+            
+            .mobile-nav-links {
+                gap: 1rem;
+            }
+            
+            .mobile-nav-links a {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            .experience-grid {
+                grid-template-columns: repeat(2, 1fr);
+                justify-items: stretch;
+                gap: 1.5rem;
+            }
+            
+            .experience-grid .content-card:nth-child(3) {
+                grid-column: 1 / -1;
+                max-width: 500px;
+                width: 100%;
+                justify-self: center;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+                justify-items: stretch;
+                gap: 1.5rem;
+            }
+            
+            .portfolio-grid .content-card:nth-child(3) {
+                grid-column: 1 / -1;
+                max-width: 500px;
+                width: 100%;
+                justify-self: center;
+            }
+            
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+                justify-items: stretch;
+                gap: 1.5rem;
+            }
+            
+            .contact-grid .content-card:nth-child(3) {
+                grid-column: 1 / -1;
+                max-width: 500px;
+                width: 100%;
+                justify-self: center;
+            }
+            
+            .contact-card {
+                min-height: 220px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .experience-grid .content-card,
+            .portfolio-grid .content-card {
+                min-height: 220px;
+                height: auto;
+            }
+            
+            .section-header h2 {
+                font-size: 2rem;
+            }
+            
+            .section-header p {
+                font-size: 1rem;
+            }
+            
+            .content-card h3 {
+                font-size: 1.1rem;
+            }
+            
+            .content-card p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 850px) {
+            .experience-grid,
+            .portfolio-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                gap: 1.5rem;
+            }
+            
+            .experience-grid .content-card:nth-child(3),
+            .portfolio-grid .content-card:nth-child(3),
+            .contact-grid .content-card:nth-child(3) {
+                grid-column: 1;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .mobile-language-switcher {
+                background: var(--primary-color);
+                color: white;
+                border: 2px solid var(--primary-color);
+                font-weight: 600;
+                padding: 0.75rem 1.5rem;
+                border-radius: 0.625rem;
+                transition: all 0.3s ease;
+            }
+            
+            .mobile-language-switcher:hover {
+                background: white;
+                color: var(--primary-color);
+                transform: translateY(-2px);
+            }
+        }
+
+        @supports (-webkit-touch-callout: none) {
+            .hero {
+                min-height: -webkit-fill-available;
+            }
+            
+            .mobile-menu {
+                min-height: -webkit-fill-available;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Основная навигация">
+            <div class="logo" data-i18n="name" onclick="smoothScrollTo(0)">Дарья Давыдова</div>
+            
+            <!-- Бургер-меню для мобильных устройств -->
+            <button class="burger-menu" aria-label="Меню" aria-expanded="false" aria-controls="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#home" class="active" data-i18n="nav.home" role="menuitem">Главная</a></li>
+                <li role="none"><a href="#about" data-i18n="nav.about" role="menuitem">Обо мне</a></li>
+                <li role="none"><a href="#partners" data-i18n="nav.experience" role="menuitem">Опыт работы</a></li>
+                <li role="none"><a href="#figma" data-i18n="nav.projects" role="menuitem">Учебные проекты</a></li>
+                <li role="none"><a href="#contacts" data-i18n="nav.contacts" role="menuitem">Контакты</a></li>
+            </ul>
+            
+            <div class="search-language">
+                <div class="search-container">
+                    <input type="text" class="search-box" placeholder="Поиск..." aria-label="Поиск по сайту">
+                    <div class="search-results" role="listbox"></div>
+                </div>
+                <button class="language-switcher" aria-label="Переключить язык">EN</button>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Мобильное меню - ИСПРАВЛЕННАЯ ВЕРСИЯ -->
+    <aside class="mobile-menu" id="mobileMenu" aria-hidden="true" aria-label="Мобильное меню">
+        <!-- Кнопка закрытия -->
+        <button class="mobile-close-btn" aria-label="Закрыть меню">
+            <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        
+        <ul class="mobile-nav-links" role="menubar">
+            <li role="none"><a href="#home" class="active" data-i18n="nav.home" role="menuitem">Главная</a></li>
+            <li role="none"><a href="#about" data-i18n="nav.about" role="menuitem">Обо мне</a></li>
+            <li role="none"><a href="#partners" data-i18n="nav.experience" role="menuitem">Опыт работы</a></li>
+            <li role="none"><a href="#figma" data-i18n="nav.projects" role="menuitem">Учебные проекты</a></li>
+            <li role="none"><a href="#contacts" data-i18n="nav.contacts" role="menuitem">Контакты</a></li>
+        </ul>
+        
+        <div class="mobile-search-language">
+            <div class="mobile-search-container">
+                <input type="text" class="mobile-search-box" placeholder="Поиск..." aria-label="Поиск по сайту">
+                <div class="mobile-search-results" role="listbox"></div>
+            </div>
+            <button class="mobile-language-switcher" aria-label="Переключить язык">EN</button>
+        </div>
+    </aside>
+
+    <main id="main-content" role="main">
+        <section class="hero" id="home">
+            <div class="section-content">
+                <div class="hero-content">
+                    <h1 class="section-element" data-animate data-i18n="hero.title">UX/UI ДИЗАЙНЕР</h1>
+                    <p class="section-element" data-animate="fade-left" data-i18n="hero.description">Начинающий дизайнер с фокусом на создании интуитивных интерфейсов. Завершила курсы Яндекс.Практикума и готова применять полученные знания в реальных проектах.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item section-element" data-animate="fade-right">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label" data-i18n="hero.projects">учебных проектов</div>
+                        </div>
+                        <div class="stat-item section-element" data-animate="fade-left">
+                            <div class="stat-number">1</div>
+                            <div class="stat-label" data-i18n="hero.experience">год опыта</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "ОБО МНЕ" -->
+        <section class="about" id="about">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-element" data-animate data-i18n="about.title">Обо мне</h2>
+                    <p class="section-element" data-animate="fade-right" data-i18n="about.subtitle">Создаю цифровые продукты, которые решают реальные проблемы пользователей через исследование, проектирование и тестирование</p>
+                </div>
+                
+                <div class="about-main">
+                    <div class="about-text">
+                        <p class="section-element" data-animate="fade-right" data-i18n="about.text1">Как начинающий UX/UI дизайнер, я прошла интенсивное обучение в Яндекс.Практикуме, где освоила полный цикл разработки цифровых продуктов. Мой подход сочетает аналитическое мышление с вниманием к деталям и эмпатией к пользователям.</p>
+                        
+                        <p class="section-element" data-animate="fade-right" data-i18n="about.text2">В работе ценю структурированность и системный подход — от анализа целевой аудитории и исследования пользовательских сценариев до создания прототипов и проведения юзабилити-тестирования. Уверена, что хороший дизайн должен быть не только эстетичным, но и функциональным, доступным и решающим конкретные бизнес-задачи.</p>
+                        
+                        <p class="section-element" data-animate="fade-right" data-i18n="about.text3">Ищу возможность присоединиться к сильной команде, где смогу применять свои навыки, учиться у опытных коллег и развиваться как профессионал в области UX/UI дизайна.</p>
+                        
+                        <div class="tools-experience">
+                            <div class="content-card section-element" data-animate="fade-up">
+                                <h3 data-i18n="about.tools.title">Инструменты</h3>
+                                <ul>
+                                    <li data-i18n="about.tools.figma">Figma</li>
+                                    <li data-i18n="about.tools.tilda">Tilda</li>
+                                    <li data-i18n="about.tools.aftereffects">Adobe After Effects</li>
+                                    <li data-i18n="about.tools.photoshop">Adobe Photoshop</li>
+                                    <li data-i18n="about.tools.notion">Notion</li>
+                                </ul>
+                            </div>
+                            <div class="content-card section-element" data-animate="fade-up">
+                                <h3 data-i18n="about.softskills.title">Soft Skills</h3>
+                                <ul>
+                                    <li data-i18n="about.softskills.learnability">Обучаемость</li>
+                                    <li data-i18n="about.softskills.attention">Внимательность к деталям</li>
+                                    <li data-i18n="about.softskills.teamwork">Работа в команде</li>
+                                    <li data-i18n="about.softskills.timemanagement">Тайм-менеджмент</li>
+                                    <li data-i18n="about.softskills.problemsolving">Решение проблем</li>
+                                    <li data-i18n="about.softskills.communication">Коммуникабельность</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <div class="skills-grid">
+                            <div class="content-card section-element" data-animate="fade-left">
+                                <h3 data-i18n="about.uxskills.title">UX Навыки</h3>
+                                <ul>
+                                    <li data-i18n="about.uxskills.research">Пользовательские исследования</li>
+                                    <li data-i18n="about.uxskills.scenarios">Создание пользовательских сценариев</li>
+                                    <li data-i18n="about.uxskills.architecture">Информационная архитектура</li>
+                                    <li data-i18n="about.uxskills.prototyping">Прототипирование и вайрфреймы</li>
+                                    <li data-i18n="about.uxskills.testing">Юзабилити-тестирование</li>
+                                </ul>
+                            </div>
+                            <div class="content-card section-element" data-animate="fade-left">
+                                <h3 data-i18n="about.uisills.title">UI Навыки</h3>
+                                <ul>
+                                    <li data-i18n="about.uisills.responsive">Создание адаптивных интерфейсов</li>
+                                    <li data-i18n="about.uisills.typography">Работа с типографикой</li>
+                                    <li data-i18n="about.uisills.designsystems">Создание дизайн-систем</li>
+                                    <li data-i18n="about.uisills.landing">Дизайн лендингов</li>
+                                    <li data-i18n="about.uisills.graphics">Работа с графикой</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-btn-container">
+                        <a href="#contacts" class="contact-btn section-element" data-animate="zoom-in" data-i18n="button.contact">Связаться со мной</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "ОПЫТ РАБОТЫ" -->
+        <section class="partners" id="partners">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-element" data-animate data-i18n="experience.title">Опыт работы</h2>
+                    <p class="section-element" data-animate="fade-left" data-i18n="experience.subtitle">В рамках учебных проектов и&nbsp;стажировок работала над&nbsp;задачами для&nbsp;реальных компаний</p>
+                </div>
+                
+                <div class="experience-grid">
+                    <div class="content-card section-element" data-animate="fade-up">
+                        <h3 data-i18n="experience.galamart.title">Галамарт</h3>
+                        <p data-i18n="experience.galamart.description">Разрабатывала дизайн рекламных материалов для внутреннего оформления магазинов: плакаты с информацией о соцсетях, акционных товарах и промо-кампаниях.</p>
+                    </div>
+                    <div class="content-card section-element" data-animate="fade-up">
+                        <h3 data-i18n="experience.mechel.title">Мечел</h3>
+                        <p data-i18n="experience.mechel.description">Участвовала в редизайне корпоративного сайта компании: разрабатывала новые UI-компоненты, улучшала пользовательский опыт и адаптивность.</p>
+                    </div>
+                    <div class="content-card section-element" data-animate="fade-up">
+                        <h3 data-i18n="experience.lenta.title">Лента</h3>
+                        <p data-i18n="experience.lenta.description">Создавала дизайн дашборда для аналитиков приложения: разрабатывала интерфейсы для просмотра статистики и графиков по товарам и товарным группам по магазинам сети.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "УЧЕБНЫЕ ПРОЕКТЫ" -->
+        <section class="figma-section" id="figma">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-element" data-animate data-i18n="projects.title">Учебные проекты</h2>
+                    <p class="section-element" data-animate="fade-right" data-i18n="projects.subtitle">Проекты, выполненные в рамках обучения в Яндекс.Практикуме</p>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="content-card section-element" data-animate="fade-left">
+                        <h3 data-i18n="projects.project1.title">Стилизация элитных интернет-магазинов</h3>
+                        <p data-i18n="projects.project1.description">Разработала концепцию дизайна для премиальных брендов с акцентом на элегантность и удобство.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag" data-i18n="projects.tags.ui">UI Design</span>
+                            <span class="tag" data-i18n="projects.tags.ecommerce">E-commerce</span>
+                            <span class="tag" data-i18n="projects.tags.responsive">Responsive</span>
+                        </div>
+                    </div>
+                    <div class="content-card section-element" data-animate="fade-up">
+                        <h3 data-i18n="projects.project2.title">Создание бренда мороженого</h3>
+                        <p data-i18n="projects.project2.description">Разработала полный брендбук для нового бренда мороженого: упаковку, логотип, стратегию продвижения.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag" data-i18n="projects.tags.branding">Branding</span>
+                            <span class="tag" data-i18n="projects.tags.packaging">Packaging</span>
+                            <span class="tag" data-i18n="projects.tags.graphic">Graphic Design</span>
+                        </div>
+                    </div>
+                    <div class="content-card section-element" data-animate="fade-right">
+                        <h3 data-i18n="projects.project3.title">Мобильное приложение для отслеживания подписок</h3>
+                        <p data-i18n="projects.project3.description">Спроектировала и создала прототип приложения для управления подписками.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag" data-i18n="projects.tags.ux">UX Research</span>
+                            <span class="tag" data-i18n="projects.tags.mobile">Mobile App</span>
+                            <span class="tag" data-i18n="projects.tags.prototyping">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="text-align: center;">
+                    <a href="#" class="figma-link section-element" data-animate="zoom-in">
+                        <i class="fab fa-figma" aria-hidden="true"></i>
+                        <span data-i18n="button.figma">Смотреть проекты на Figma</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "КОНТАКТЫ" - ГОРИЗОНТАЛЬНЫЕ БЛОКИ -->
+        <section class="contact" id="contacts">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-element" data-animate data-i18n="contacts.title">Контакты</h2>
+                    <p class="section-element" data-animate="fade-left" data-i18n="contacts.subtitle">Открыта для предложений о&nbsp;стажировке и&nbsp;junior-позициях в&nbsp;области UX/UI дизайна</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="content-card contact-card section-element" data-animate="fade-up" role="button" tabindex="0" data-contact-type="telegram">
+                        <i class="fab fa-telegram" aria-hidden="true"></i>
+                        <h3 data-i18n="contacts.telegram.title">Telegram</h3>
+                        <span>@dasharrows</span>
+                        <p data-i18n="contacts.telegram.description">Быстрый способ связаться</p>
+                    </div>
+                    <div class="content-card contact-card section-element" data-animate="fade-up" role="button" tabindex="0" data-contact-type="email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <h3 data-i18n="contacts.email.title">Email</h3>
+                        <span>dariya.d.design@gmail.com</span>
+                        <p data-i18n="contacts.email.description">Написать письмо дизайнеру</p>
+                    </div>
+                    <div class="content-card contact-card section-element" data-animate="fade-up" role="button" tabindex="0" data-contact-type="phone">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <h3 data-i18n="contacts.phone.title">Телефон</h3>
+                        <span>+7 (993) 936-56-95</span>
+                        <p data-i18n="contacts.phone.description">Доступна для звонков</p>
+                    </div>
+                </div>
+                
+                <p class="contact-note section-element" data-animate="fade-up" data-i18n="contacts.note">Откликаюсь на сообщения в течение 24 часов. Предпочитаю начинать общение с видеозвонка для более продуктивного знакомства.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-left">
+                <span class="footer-title" data-i18n="footer.follow">Ваш будущий дизайнер также следит за</span>
+            </div>
+            <div class="footer-center">
+                <a href="#" aria-label="VK">
+                    <i class="fab fa-vk" aria-hidden="true"></i>
+                    <span class="sr-only">VK</span>
+                </a>
+                <a href="#" aria-label="Behance">
+                    <i class="fab fa-behance" aria-hidden="true"></i>
+                    <span class="sr-only">Behance</span>
+                </a>
+                <a href="#" aria-label="Dribbble">
+                    <i class="fab fa-dribbble" aria-hidden="true"></i>
+                    <span class="sr-only">Dribbble</span>
+                </a>
+            </div>
+            <div class="footer-right">
+                <span data-i18n="footer.copyright">&copy; 2025 Все права защищены</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Установка начального языка
+        document.documentElement.lang = 'ru';
+
+        // ПРОСТАЯ ФУНКЦИЯ ДЛЯ ПОЛУЧЕНИЯ ЭЛЕМЕНТОВ
+        function getElement(selector) {
+            return document.querySelector(selector);
+        }
+
+        // ФУНКЦИЯ ДЛЯ ВЫЧИСЛЕНИЯ ШИРИНЫ СКРОЛЛБАРА
+        function getScrollbarWidth() {
+            return window.innerWidth - document.documentElement.clientWidth;
+        }
+
+        // ПРЕДВАРИТЕЛЬНАЯ КОМПИЛЯЦИЯ ПОИСКОВОГО ИНДЕКСА
+        const searchData = {
+            ru: [
+                { text: 'Главная', section: 'home' },
+                { text: 'Обо мне', section: 'about' },
+                { text: 'Опыт работы', section: 'partners' },
+                { text: 'Учебные проекты', section: 'figma' },
+                { text: 'Контакты', section: 'contacts' },
+                { text: 'UX/UI ДИЗАЙНЕР', section: 'home' },
+                { text: 'Инструменты', section: 'about' },
+                { text: 'Soft Skills', section: 'about' },
+                { text: 'UX Навыки', section: 'about' },
+                { text: 'UI Навыки', section: 'about' },
+                { text: 'Галамарт', section: 'partners' },
+                { text: 'Мечел', section: 'partners' },
+                { text: 'Лента', section: 'partners' },
+                { text: 'Стилизация элитных интернет-магазинов', section: 'figma' },
+                { text: 'Создание бренда мороженого', section: 'figma' },
+                { text: 'Мобильное приложение', section: 'figma' },
+                { text: 'Telegram', section: 'contacts' },
+                { text: 'Email', section: 'contacts' },
+                { text: 'Телефон', section: 'contacts' }
+            ],
+            en: [
+                { text: 'Home', section: 'home' },
+                { text: 'About', section: 'about' },
+                { text: 'Experience', section: 'partners' },
+                { text: 'Projects', section: 'figma' },
+                { text: 'Contacts', section: 'contacts' },
+                { text: 'UX/UI DESIGNER', section: 'home' },
+                { text: 'Tools', section: 'about' },
+                { text: 'Soft Skills', section: 'about' },
+                { text: 'UX Skills', section: 'about' },
+                { text: 'UI Skills', section: 'about' },
+                { text: 'Galamart', section: 'partners' },
+                { text: 'Mechel', section: 'partners' },
+                { text: 'Lenta', section: 'partners' },
+                { text: 'Styling of premium online stores', section: 'figma' },
+                { text: 'Ice cream brand creation', section: 'figma' },
+                { text: 'Mobile application', section: 'figma' },
+                { text: 'Telegram', section: 'contacts' },
+                { text: 'Email', section: 'contacts' },
+                { text: 'Phone', section: 'contacts' }
+            ]
+        };
+
+        // ПРОСТАЯ ФУНКЦИЯ ПОИСКА
+        function performSearch(query, resultsContainer, language) {
+            if (!resultsContainer) return;
+            
+            resultsContainer.innerHTML = '';
+            
+            const normalizedQuery = query.toLowerCase().trim();
+            if (normalizedQuery.length < 1) {
+                resultsContainer.style.display = 'none';
+                return;
+            }
+            
+            const matches = searchData[language].filter(item => 
+                item.text.toLowerCase().includes(normalizedQuery)
+            );
+            
+            if (matches.length > 0) {
+                matches.forEach(match => {
+                    const resultElement = document.createElement('div');
+                    resultElement.className = 'search-result';
+                    resultElement.textContent = match.text;
+                    resultElement.addEventListener('click', () => {
+                        const targetSection = document.getElementById(match.section);
+                        if (targetSection) {
+                            const navbar = getElement('.navbar');
+                            const navbarHeight = navbar ? navbar.offsetHeight : 0;
+                            const targetPosition = targetSection.offsetTop - navbarHeight;
+                            
+                            smoothScrollTo(targetPosition);
+                        }
+                        resultsContainer.style.display = 'none';
+                        
+                        // Очищаем поле поиска
+                        const searchBox = getElement('.search-box');
+                        const mobileSearchBox = getElement('.mobile-search-box');
+                        if (searchBox) searchBox.value = '';
+                        if (mobileSearchBox) mobileSearchBox.value = '';
+                        
+                        // Закрываем мобильное меню если оно открыто
+                        if (window.closeMobileMenu) {
+                            window.closeMobileMenu();
+                        }
+                    });
+                    resultsContainer.appendChild(resultElement);
+                });
+                
+                resultsContainer.style.display = 'block';
+            } else {
+                const noResult = document.createElement('div');
+                noResult.className = 'search-result';
+                noResult.textContent = language === 'ru' ? 'Ничего не найдено' : 'Nothing found';
+                resultsContainer.appendChild(noResult);
+                resultsContainer.style.display = 'block';
+            }
+        }
+
+        // ИСПРАВЛЕННАЯ ИНИЦИАЛИЗАЦИЯ ПОИСКА
+        function initSearch() {
+            const searchBox = getElement('.search-box');
+            const mobileSearchBox = getElement('.mobile-search-box');
+            const searchResults = getElement('.search-results');
+            const mobileSearchResults = getElement('.mobile-search-results');
+            
+            if (searchBox && searchResults) {
+                // Удаляем старые обработчики если есть
+                searchBox.oninput = null;
+                searchBox.addEventListener('input', (e) => {
+                    performSearch(e.target.value, searchResults, currentLanguage);
+                });
+            }
+            
+            if (mobileSearchBox && mobileSearchResults) {
+                // Удаляем старые обработчики если есть
+                mobileSearchBox.oninput = null;
+                mobileSearchBox.addEventListener('input', (e) => {
+                    performSearch(e.target.value, mobileSearchResults, currentLanguage);
+                });
+            }
+            
+            // Закрытие результатов при клике вне поиска
+            document.addEventListener('click', (e) => {
+                if (searchResults && !e.target.closest('.search-container')) {
+                    searchResults.style.display = 'none';
+                }
+                if (mobileSearchResults && !e.target.closest('.mobile-search-container')) {
+                    mobileSearchResults.style.display = 'none';
+                }
+            });
+        }
+
+        // ИСПРАВЛЕННАЯ СИСТЕМА НАВИГАЦИИ
+        function initNavigation() {
+            const sections = ['home', 'about', 'partners', 'figma', 'contacts'];
+            const navLinks = document.querySelectorAll('.nav-links a, .mobile-nav-links a');
+            const navbar = getElement('.navbar');
+            
+            if (!navbar) return;
+
+            let currentActiveSection = 'home';
+            let navObserver = null;
+
+            // Функция для определения активной секции
+            function getCurrentSection() {
+                const scrollPosition = window.scrollY + (window.innerHeight / 3);
+                let currentSection = 'home';
+                
+                sections.forEach(sectionId => {
+                    const section = document.getElementById(sectionId);
+                    if (section && section.offsetTop <= scrollPosition) {
+                        currentSection = sectionId;
+                    }
+                });
+                
+                return currentSection;
+            }
+
+            // Используем Intersection Observer для точного отслеживания
+            if ('IntersectionObserver' in window) {
+                navObserver = new IntersectionObserver((entries) => {
+                    let mostVisibleSection = currentActiveSection;
+                    let maxRatio = 0;
+
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting && entry.intersectionRatio > maxRatio) {
+                            maxRatio = entry.intersectionRatio;
+                            mostVisibleSection = entry.target.id;
+                        }
+                    });
+
+                    if (mostVisibleSection && mostVisibleSection !== currentActiveSection) {
+                        currentActiveSection = mostVisibleSection;
+                        updateActiveNav();
+                    }
+                }, {
+                    rootMargin: '-20% 0px -70% 0px',
+                    threshold: [0.1, 0.3, 0.5]
+                });
+                
+                sections.forEach(sectionId => {
+                    const section = document.getElementById(sectionId);
+                    if (section) navObserver.observe(section);
+                });
+            }
+            
+            // Резервный обработчик скролла
+            const handleScroll = () => {
+                const scrolled = window.pageYOffset > 50;
+                if (navbar) {
+                    navbar.classList.toggle('scrolled', scrolled);
+                }
+
+                // Обновляем активную секцию при скролле
+                const newSection = getCurrentSection();
+                if (newSection !== currentActiveSection) {
+                    currentActiveSection = newSection;
+                    updateActiveNav();
+                }
+            };
+            
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            
+            // Обновление активной навигации
+            function updateActiveNav() {
+                navLinks.forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (href === '#' + currentActiveSection) {
+                        link.classList.add('active');
+                        link.setAttribute('aria-current', 'page');
+                    } else {
+                        link.classList.remove('active');
+                        link.removeAttribute('aria-current');
+                    }
+                });
+            }
+            
+            // Обработчики кликов по навигационным ссылкам
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection && navbar) {
+                        const navbarHeight = navbar.offsetHeight;
+                        const targetPosition = targetSection.offsetTop - navbarHeight;
+                        smoothScrollTo(targetPosition);
+                        
+                        // Принудительное обновление активной секции
+                        currentActiveSection = targetId;
+                        updateActiveNav();
+                    }
+                });
+            });
+
+            // Инициализация активной навигации
+            updateActiveNav();
+            
+            // Принудительное обновление при загрузке
+            setTimeout(() => {
+                const currentSection = getCurrentSection();
+                if (currentSection && currentSection !== currentActiveSection) {
+                    currentActiveSection = currentSection;
+                    updateActiveNav();
+                }
+            }, 100);
+        }
+
+        // ПЛАВНЫЙ СКРОЛЛИНГ
+        function smoothScrollTo(targetPosition, duration = 600) {
+            const startPosition = window.pageYOffset;
+            const distance = targetPosition - startPosition;
+            
+            if (distance === 0) return;
+            
+            let startTime = null;
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                const progress = Math.min(timeElapsed / duration, 1);
+                const ease = progress < 0.5 ? 2 * progress * progress : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+                
+                window.scrollTo(0, startPosition + distance * ease);
+                
+                if (progress < 1) {
+                    requestAnimationFrame(animation);
+                }
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        // ИСПРАВЛЕННОЕ МОБИЛЬНОЕ МЕНЮ
+        function initMobileMenu() {
+            const burgerMenu = getElement('.burger-menu');
+            const mobileMenu = getElement('#mobileMenu');
+            const closeBtn = getElement('.mobile-close-btn');
+            const body = document.body;
+            
+            if (!burgerMenu || !mobileMenu || !closeBtn) return;
+            
+            // Сохраняем текущую позицию скролла перед открытием меню
+            let scrollPosition = 0;
+            
+            function toggleMobileMenu() {
+                const isOpening = !burgerMenu.classList.contains('active');
+                
+                burgerMenu.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+                burgerMenu.setAttribute('aria-expanded', isOpening.toString());
+                mobileMenu.setAttribute('aria-hidden', (!isOpening).toString());
+                
+                if (isOpening) {
+                    // Сохраняем позицию скролла перед открытием
+                    scrollPosition = window.pageYOffset;
+                    body.classList.add('menu-open');
+                    body.style.top = `-${scrollPosition}px`;
+                } else {
+                    body.classList.remove('menu-open');
+                    // Восстанавливаем позицию скролла после закрытия
+                    body.style.top = '';
+                    window.scrollTo(0, scrollPosition);
+                }
+            }
+            
+            function closeMobileMenu() {
+                burgerMenu.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                body.classList.remove('menu-open');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                burgerMenu.setAttribute('aria-expanded', 'false');
+                
+                // Восстанавливаем позицию скролла
+                body.style.top = '';
+                window.scrollTo(0, scrollPosition);
+            }
+            
+            // Биндинг событий
+            burgerMenu.addEventListener('click', toggleMobileMenu);
+            closeBtn.addEventListener('click', closeMobileMenu);
+            
+            // Закрытие при клике на ссылку
+            document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        const navbar = getElement('.navbar');
+                        const navbarHeight = navbar ? navbar.offsetHeight : 0;
+                        const targetPosition = targetSection.offsetTop - navbarHeight;
+                        
+                        // Закрываем меню и скроллим к секции
+                        closeMobileMenu();
+                        setTimeout(() => {
+                            smoothScrollTo(targetPosition);
+                        }, 300);
+                    }
+                });
+            });
+            
+            // Закрытие по Escape
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            });
+            
+            // Сохраняем функции глобально для обработчиков
+            window.toggleMobileMenu = toggleMobileMenu;
+            window.closeMobileMenu = closeMobileMenu;
+        }
+
+        // АНИМАЦИИ
+        function initAnimations() {
+            if ('IntersectionObserver' in window) {
+                const animationObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animated');
+                        }
+                    });
+                }, { 
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                });
+
+                document.querySelectorAll('[data-animate]').forEach(el => {
+                    if (el) animationObserver.observe(el);
+                });
+            } else {
+                // Fallback для старых браузеров
+                document.querySelectorAll('[data-animate]').forEach(el => {
+                    if (el) el.classList.add('animated');
+                });
+            }
+        }
+
+        // УВЕДОМЛЕНИЯ
+        function showNotification(messageKey) {
+            const message = translations[currentLanguage][messageKey] || messageKey;
+            
+            const notification = document.createElement('div');
+            notification.textContent = message;
+            notification.style.cssText = `
+                position: fixed;
+                top: 100px;
+                right: 20px;
+                background: var(--primary-color);
+                color: white;
+                padding: 1rem 1.5rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                z-index: 10000;
+                font-weight: 500;
+                transform: translateX(400px);
+                opacity: 0;
+                transition: all 0.3s ease;
+                max-width: 300px;
+                text-align: center;
+                border: 2px solid var(--accent-color);
+            `;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+                notification.style.opacity = '1';
+            }, 100);
+            
+            setTimeout(() => {
+                notification.style.transform = 'translateX(400px)';
+                notification.style.opacity = '0';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.parentNode.removeChild(notification);
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        // КОПИРОВАНИЕ EMAIL
+        async function copyEmailToClipboard() {
+            const email = 'dariya.d.design@gmail.com';
+            
+            try {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    await navigator.clipboard.writeText(email);
+                    showNotification('notification.email_copied');
+                } else {
+                    // Fallback для старых браузеров
+                    const textArea = document.createElement('textarea');
+                    textArea.value = email;
+                    textArea.style.cssText = 'position: fixed; left: -9999px; opacity: 0;';
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    showNotification('notification.email_copied');
+                }
+            } catch (err) {
+                console.error('Failed to copy email:', err);
+                showNotification('notification.email_copy_failed');
+            }
+        }
+
+        // ОБРАБОТЧИКИ КОНТАКТНЫХ КАРТОЧЕК
+        function handleContactClick(type) {
+            switch(type) {
+                case 'telegram':
+                    window.open('https://t.me/dasharrows', '_blank', 'noopener,noreferrer');
+                    break;
+                case 'email':
+                    copyEmailToClipboard();
+                    break;
+                case 'phone':
+                    window.location.href = 'tel:+79939365695';
+                    break;
+                default:
+                    console.warn('Unknown contact type:', type);
+            }
+        }
+
+        function initContactCards() {
+            const contactCards = document.querySelectorAll('.contact-card');
+            
+            contactCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const type = this.getAttribute('data-contact-type');
+                    if (type) {
+                        handleContactClick(type);
+                    }
+                });
+                
+                card.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        const type = e.currentTarget.getAttribute('data-contact-type');
+                        if (type) {
+                            handleContactClick(type);
+                        }
+                    }
+                });
+            });
+        }
+
+        // ОБРАБОТЧИКИ СОЦИАЛЬНЫХ ССЫЛОК
+        function handleSocialClick(type) {
+            switch(type) {
+                case 'vk':
+                    window.open('https://vk.com/dasharrow', '_blank', 'noopener,noreferrer');
+                    break;
+                case 'behance':
+                    showNotification('notification.behance_soon');
+                    break;
+                case 'dribbble':
+                    showNotification('notification.dribbble_soon');
+                    break;
+                default:
+                    console.warn('Unknown social type:', type);
+            }
+        }
+
+        function handleFigmaClick() {
+            showNotification('notification.figma_soon');
+        }
+
+        function handleMobileLanguageSwitch() {
+            switchLanguage();
+            // Закрываем меню после переключения языка
+            setTimeout(() => {
+                if (typeof window.closeMobileMenu === 'function') {
+                    window.closeMobileMenu();
+                }
+            }, 300);
+        }
+
+        // СИСТЕМА ПЕРЕВОДА
+        const translations = {
+            ru: {
+                "name": "Дарья Давыдова",
+                "nav.home": "Главная",
+                "nav.about": "Обо мне",
+                "nav.experience": "Опыт работы",
+                "nav.projects": "Учебные проекты",
+                "nav.contacts": "Контакты",
+                "search.placeholder": "Поиск...",
+                "hero.title": "UX/UI ДИЗАЙНЕР",
+                "hero.description": "Начинающий дизайнер с фокусом на создании интуитивных интерфейсов. Завершила курсы Яндекс.Практикума и готова применять полученные знания в реальных проектах.",
+                "hero.projects": "учебных проектов",
+                "hero.experience": "год опыта",
+                "about.title": "Обо мне",
+                "about.subtitle": "Создаю цифровые продукты, которые решают реальные проблемы пользователей через исследование, проектирование и тестирование",
+                "about.text1": "Как начинающий UX/UI дизайнер, я прошла интенсивное обучение в Яндекс.Практикуме, где освоила полный цикл разработки цифровых продуктов. Мой подход сочетает аналитическое мышление с вниманием к деталям и эмпатией к пользователям.",
+                "about.text2": "В работе ценю структурированность и системный подход — от анализа целевой аудитории и исследования пользовательских сценариев до создания прототипов и проведения юзабилити-тестирования. Уверена, что хороший дизайн должен быть не только эстетичным, но и функциональным, доступным и решающим конкретные бизнес-задачи.",
+                "about.text3": "Ищу возможность присоединиться к сильной команде, где смогу применять свои навыки, учиться у опытных коллег и развиваться как профессионал в области UX/UI дизайна.",
+                "about.tools.title": "Инструменты",
+                "about.tools.figma": "Figma",
+                "about.tools.tilda": "Tilda",
+                "about.tools.aftereffects": "Adobe After Effects",
+                "about.tools.photoshop": "Adobe Photoshop",
+                "about.tools.notion": "Notion",
+                "about.softskills.title": "Soft Skills",
+                "about.softskills.learnability": "Обучаемость",
+                "about.softskills.attention": "Внимательность к деталям",
+                "about.softskills.teamwork": "Работа в команде",
+                "about.softskills.timemanagement": "Тайм-менеджмент",
+                "about.softskills.problemsolving": "Решение проблем",
+                "about.softskills.communication": "Коммуникабельность",
+                "about.uxskills.title": "UX Навыки",
+                "about.uxskills.research": "Пользовательские исследования",
+                "about.uxskills.scenarios": "Создание пользовательских сценариев",
+                "about.uxskills.architecture": "Информационная архитектура",
+                "about.uxskills.prototyping": "Прототипирование и вайрфреймы",
+                "about.uxskills.testing": "Юзабилити-тестирование",
+                "about.uisills.title": "UI Навыки",
+                "about.uisills.responsive": "Создание адаптивных интерфейсов",
+                "about.uisills.typography": "Работа с типографикой",
+                "about.uisills.designsystems": "Создание дизайн-систем",
+                "about.uisills.landing": "Дизайн лендингов",
+                "about.uisills.graphics": "Работа с графикой",
+                "experience.title": "Опыт работы",
+                "experience.subtitle": "В рамках учебных проектов и стажировок работала над задачами для реальных компаний",
+                "experience.galamart.title": "Галамарт",
+                "experience.galamart.description": "Разрабатывала дизайн рекламных материалов для внутреннего оформления магазинов: плакаты с информацией о соцсетях, акционных товарах и промо-кампаниях.",
+                "experience.mechel.title": "Мечел",
+                "experience.mechel.description": "Участвовала в редизайне корпоративного сайта компании: разрабатывала новые UI-компоненты, улучшала пользовательский опыт и адаптивность.",
+                "experience.lenta.title": "Лента",
+                "experience.lenta.description": "Создавала дизайн дашборда для аналитиков приложения: разрабатывала интерфейсы для просмотра статистики и графиков по товарам и товарным группам по магазинам сети.",
+                "projects.title": "Учебные проекты",
+                "projects.subtitle": "Проекты, выполненные в рамках обучения в Яндекс.Практикуме",
+                "projects.project1.title": "Стилизация элитных интернет-магазинов",
+                "projects.project1.description": "Разработала концепцию дизайна для премиальных брендов с акцентом на элегантность и удобство.",
+                "projects.project2.title": "Создание бренда мороженого",
+                "projects.project2.description": "Разработала полный брендбук для нового бренда мороженого: упаковку, логотип, стратегию продвижения.",
+                "projects.project3.title": "Мобильное приложение для отслеживания подписок",
+                "projects.project3.description": "Спроектировала и создала прототип приложения для управления подписками.",
+                "projects.tags.ui": "UI Design",
+                "projects.tags.ecommerce": "E-commerce",
+                "projects.tags.responsive": "Responsive",
+                "projects.tags.branding": "Branding",
+                "projects.tags.packaging": "Packaging",
+                "projects.tags.graphic": "Graphic Design",
+                "projects.tags.ux": "UX Research",
+                "projects.tags.mobile": "Mobile App",
+                "projects.tags.prototyping": "Prototyping",
+                "contacts.title": "Контакты",
+                "contacts.subtitle": "Открыта для предложений о стажировке и junior-позициях в области UX/UI дизайна",
+                "contacts.telegram.title": "Telegram",
+                "contacts.telegram.description": "Быстрый способ связаться",
+                "contacts.email.title": "Email",
+                "contacts.email.description": "Написать письмо дизайнеру",
+                "contacts.phone.title": "Телефон",
+                "contacts.phone.description": "Доступна для звонков",
+                "contacts.note": "Откликаюсь на сообщения в течение 24 часов. Предпочитаю начинать общение с видеозвонка для более продуктивного знакомства.",
+                "button.contact": "Связаться со мной",
+                "button.figma": "Смотреть проекты на Figma",
+                "footer.follow": "Ваш будущий дизайнер также следит за",
+                "footer.copyright": "© 2025 Все права защищены",
+                
+                "notification.email_copied": "Email скопирован в буфер обмена!",
+                "notification.email_copy_failed": "Не удалось скопировать email. Скопируйте вручную: dariya.d.design@gmail.com",
+                "notification.behance_soon": "Ссылка на Behance будет добавлена позже",
+                "notification.dribbble_soon": "Ссылка на Dribbble будет добавлена позже",
+                "notification.figma_soon": "Ссылка на Figma будет добавлена позже"
+            },
+            en: {
+                "name": "Daria Davydova",
+                "nav.home": "Home",
+                "nav.about": "About",
+                "nav.experience": "Experience",
+                "nav.projects": "Projects",
+                "nav.contacts": "Contacts",
+                "search.placeholder": "Search...",
+                "hero.title": "UX/UI DESIGNER",
+                "hero.description": "Beginner designer focused on creating intuitive interfaces. Completed Yandex.Practicum courses and ready to apply acquired knowledge in real projects.",
+                "hero.projects": "study projects",
+                "hero.experience": "year of experience",
+                "about.title": "About Me",
+                "about.subtitle": "Create digital products that solve real user problems through research, design and testing",
+                "about.text1": "As a beginner UX/UI designer, I completed intensive training at Yandex.Practicum, where I mastered the full cycle of digital product development. My approach combines analytical thinking with attention to detail and empathy for users.",
+                "about.text2": "In my work, I value structure and a systematic approach - from analyzing the target audience and researching user scenarios to creating prototypes and conducting usability testing. I believe that good design should be not only aesthetic, but also functional, accessible and solving specific business problems.",
+                "about.text3": "Looking for an opportunity to join a strong team where I can apply my skills, learn from experienced colleagues and develop as a professional in UX/UI design.",
+                "about.tools.title": "Tools",
+                "about.tools.figma": "Figma",
+                "about.tools.tilda": "Tilda",
+                "about.tools.aftereffects": "Adobe After Effects",
+                "about.tools.photoshop": "Adobe Photoshop",
+                "about.tools.notion": "Notion",
+                "about.softskills.title": "Soft Skills",
+                "about.softskills.learnability": "Learnability",
+                "about.softskills.attention": "Attention to detail",
+                "about.softskills.teamwork": "Teamwork",
+                "about.softskills.timemanagement": "Time management",
+                "about.softskills.problemsolving": "Problem solving",
+                "about.softskills.communication": "Communication",
+                "about.uxskills.title": "UX Skills",
+                "about.uxskills.research": "User research",
+                "about.uxskills.scenarios": "Creating user scenarios",
+                "about.uxskills.architecture": "Information architecture",
+                "about.uxskills.prototyping": "Prototyping and wireframes",
+                "about.uxskills.testing": "Usability testing",
+                "about.uisills.title": "UI Skills",
+                "about.uisills.responsive": "Creating responsive interfaces",
+                "about.uisills.typography": "Working with typography",
+                "about.uisills.designsystems": "Creating design systems",
+                "about.uisills.landing": "Landing page design",
+                "about.uisills.graphics": "Working with graphics",
+                "experience.title": "Work Experience",
+                "experience.subtitle": "Within the framework of educational projects and internships, I worked on tasks for real companies",
+                "experience.galamart.title": "Galamart",
+                "experience.galamart.description": "Developed design of advertising materials for internal store decoration: posters with information about social networks, promotional goods and promo campaigns.",
+                "experience.mechel.title": "Mechel",
+                "experience.mechel.description": "Participated in corporate website redesign: developed new UI components, improved user experience and responsiveness.",
+                "experience.lenta.title": "Lenta",
+                "experience.lenta.description": "Created dashboard design for application analysts: developed interfaces for viewing statistics and charts for products and product groups across store network.",
+                "projects.title": "Study Projects",
+                "projects.subtitle": "Projects completed as part of Yandex.Practicum training",
+                "projects.project1.title": "Styling of premium online stores",
+                "projects.project1.description": "Developed design concept for premium brands with emphasis on elegance and convenience.",
+                "projects.project2.title": "Ice cream brand creation",
+                "projects.project2.description": "Developed complete brand book for new ice cream brand: packaging, logo, promotion strategy.",
+                "projects.project3.title": "Mobile subscription tracking app",
+                "projects.project3.description": "Designed and created prototype application for subscription management.",
+                "projects.tags.ui": "UI Design",
+                "projects.tags.ecommerce": "E-commerce",
+                "projects.tags.responsive": "Responsive",
+                "projects.tags.branding": "Branding",
+                "projects.tags.packaging": "Packaging",
+                "projects.tags.graphic": "Graphic Design",
+                "projects.tags.ux": "UX Research",
+                "projects.tags.mobile": "Mobile App",
+                "projects.tags.prototyping": "Prototyping",
+                "contacts.title": "Contacts",
+                "contacts.subtitle": "Open to internship offers and junior positions in the field of UX/UI design",
+                "contacts.telegram.title": "Telegram",
+                "contacts.telegram.description": "Quick way to contact",
+                "contacts.email.title": "Email",
+                "contacts.email.description": "Write email to designer",
+                "contacts.phone.title": "Phone",
+                "contacts.phone.description": "Available for calls",
+                "contacts.note": "Respond to messages within 24 hours. Prefer to start communication with video call for more productive acquaintance.",
+                "button.contact": "Contact Me",
+                "button.figma": "View projects on Figma",
+                "footer.follow": "Your future designer also follows",
+                "footer.copyright": "© 2025 All rights reserved",
+                
+                "notification.email_copied": "Email copied to clipboard!",
+                "notification.email_copy_failed": "Failed to copy email. Copy manually: dariya.d.design@gmail.com",
+                "notification.behance_soon": "Behance link will be added soon",
+                "notification.dribbble_soon": "Dribbble link will be added soon",
+                "notification.figma_soon": "Figma link will be added soon"
+            }
+        };
+
+        let currentLanguage = 'ru';
+
+        function switchLanguage() {
+            currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
+            document.documentElement.lang = currentLanguage;
+            updateContent();
+            updateLanguageButton();
+            updateSearchPlaceholders();
+        }
+
+        function updateContent() {
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[currentLanguage] && translations[currentLanguage][key]) {
+                    element.textContent = translations[currentLanguage][key];
+                }
+            });
+        }
+
+        function updateLanguageButton() {
+            const button = getElement('.language-switcher');
+            const mobileButton = getElement('.mobile-language-switcher');
+            
+            if (button) {
+                button.textContent = currentLanguage === 'ru' ? 'EN' : 'RU';
+            }
+            if (mobileButton) {
+                mobileButton.textContent = currentLanguage === 'ru' ? 'EN' : 'RU';
+            }
+        }
+
+        function updateSearchPlaceholders() {
+            const searchBox = getElement('.search-box');
+            const mobileSearchBox = getElement('.mobile-search-box');
+            
+            if (searchBox) {
+                searchBox.placeholder = translations[currentLanguage]['search.placeholder'];
+            }
+            if (mobileSearchBox) {
+                mobileSearchBox.placeholder = translations[currentLanguage]['search.placeholder'];
+            }
+        }
+
+        // ИСПРАВЛЕННАЯ ИНИЦИАЛИЗАЦИЯ ПРИ ЗАГРУЗКЕ
+        function init() {
+            try {
+                initSearch();
+                initNavigation();
+                initMobileMenu();
+                initAnimations();
+                initContactCards();
+                
+                updateSearchPlaceholders();
+                
+                // Инициализация переключателя языка
+                const languageSwitcher = getElement('.language-switcher');
+                const mobileLanguageSwitcher = getElement('.mobile-language-switcher');
+                
+                if (languageSwitcher) {
+                    languageSwitcher.addEventListener('click', switchLanguage);
+                }
+                if (mobileLanguageSwitcher) {
+                    mobileLanguageSwitcher.addEventListener('click', handleMobileLanguageSwitch);
+                }
+
+                // Инициализация социальных кнопок
+                document.querySelectorAll('.footer-center a').forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const ariaLabel = this.getAttribute('aria-label');
+                        if (ariaLabel) {
+                            handleSocialClick(ariaLabel.toLowerCase());
+                        }
+                    });
+                });
+
+                // Инициализация Figma ссылки
+                const figmaLink = getElement('.figma-link');
+                if (figmaLink) {
+                    figmaLink.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        handleFigmaClick();
+                    });
+                }
+
+                console.log('Portfolio initialized successfully');
+                
+            } catch (error) {
+                console.error('Initialization error:', error);
+            }
+        }
+
+        // ЗАПУСК ИНИЦИАЛИЗАЦИИ
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+    </script>
+</body>
+</html>
