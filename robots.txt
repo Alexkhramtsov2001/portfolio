@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://alexkhramtsov2001.github.io/portfolio/sitemap.xml
